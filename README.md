@@ -10,5 +10,71 @@ Tu proyecto funcionando localmente
 
 Asegúrate de que tu proyecto tenga esta estructura exacta:
 
-Team-Starblack-Netflix/
+Team-Starblack-Netflix-2/
+
+├── app.py # Tu aplicación Flask
+
+├── requirements.txt # Dependencias de Python
+
+├── Procfile # ¡IMPORTANTE! Comando de inicio
+
+├── templates/login.html
+
+
+🚀 Paso 2: Subir el código a GitHub
+
+este paso no explico porque si leer esto ya sabe como hacerlo
+
+🚀 Paso 3: Desplegar en Render
+
+3.1 Crear el Web Service Inicia sesión en render.com (usa "Sign in with GitHub")
+
+Haz clic en "New +" → "Web Service"
+
+Conecta tu repositorio de GitHub:
+
+Si es la primera vez, autoriza a Render a acceder a tus repos
+
+Busca y selecciona Team-Starblack-Netflix-2
+
+3.2 Configurar el servicio Completa el formulario con estos valores:
+
+Campo Valor
+
+Name : Team-Starblack-Netflix-2 (o el nombre que quieras)
+
+Root Directory : Déjalo vacío (tu proyecto está en la raíz)
+
+Environment : Python 3
+
+Build Command : pip install -r requirements.txt
+
+Start Command : gunicorn app:app
+
+3.3 Seleccionar el plan gratuito En la sección "Instance Type":
+
+Selecciona "Free"
+
+ℹ️ Info del plan gratuito:
+
+El servicio se duerme después de 15 minutos sin actividad
+
+Se despierta automáticamente cuando alguien visita la URL
+
+La primera visita después de inactividad puede tardar 15-30 segundos
+
+750 horas de uso al mes (más que suficiente)
+
+3.4 ¡Crear! Haz clic en "Create Web Service" 🚀
+
+Render comenzará a construir tu aplicación. Verás los logs en tiempo real.
+
+🔍 Paso 4: Verificar el despliegue ✅ Si todo sale bien: Verás Live en estado del servicio
+
+Recibirás una URL como: https://Team-Starblack-Netflix-2.onrender.com
+
+Accede a https://TU-APP.onrender.com/
+
+
+
 
