@@ -75,6 +75,17 @@ Recibirás una URL como: https://Team-Starblack-Netflix-2.onrender.com
 
 Accede a https://TU-APP.onrender.com/
 
+como funciona 
 
+debe carga la cookies y dar generar
+
+<img width="1074" height="606" alt="image" src="https://github.com/user-attachments/assets/2fd1f466-8ce6-4a66-a324-658ed378f8d7" />
+<img width="1085" height="610" alt="image" src="https://github.com/user-attachments/assets/f249bdb8-2d0e-4dbd-a87b-c182bd974892" />
+
+
+el link lo pega en un navegador y con esa puede ver netflix en la pc y e puede activar la tv por medio de codigo, espero que sea de gran ultilidad.
+
+
+by @hacker056
 
 
